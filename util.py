@@ -1,6 +1,5 @@
 import urllib.request
 import bs4 as bs
-# from pprint import PrettyPrinter, pprint
 from time import sleep
 
 
@@ -57,12 +56,3 @@ def obtain_player_dict():
                     player_dict[name[0].lower() + ' ' + name[1].lower() + ' ' + name[2].lower()] = entry
 
     return player_dict
-
-# a = obtain_player_dict()
-#
-# pp = PrettyPrinter(indent=4)
-# pp.pprint(a)
-# j = dumps(a, indent=4)
-# with open('player_count.json', 'a') as json:
-#     print >> j, json
-
