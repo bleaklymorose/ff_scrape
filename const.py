@@ -1,5 +1,5 @@
-DATABASE = 'database/count_test(3).db'
-COMMON_DATABASE = 'database/common_count_test(3).db'
+DATABASE = 'database/count.db'
+COMMON_DATABASE = 'database/common_count.db'
 
 POS = ['qb', 'rb', 'wr', 'te', 'k']
 URL_ADP = 'https://www.fantasypros.com/nfl/adp/'
