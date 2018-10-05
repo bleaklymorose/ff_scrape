@@ -11,7 +11,7 @@ def main():
                          username='',
                          password='')
 
-    FFStream(stream).run()
+    FFStream(reddit=stream, div=3600, refresh=86400).run()
 
 
 if __name__ == '__main__':
